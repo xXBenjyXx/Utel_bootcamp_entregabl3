@@ -19,7 +19,7 @@ Se inicializa la variable posicion en 0, que representa el nivel inicial de la c
 
 Se realiza otro bucle for nivel in range(n_niveles): para determinar el recorrido vertical de la canica. En cada iteración, se elige aleatoriamente si la canica cae a la izquierda o a la derecha mediante lado = rd.choice(["Izq", "Der"]).
 
-Si la canica cae a la derecha (lado == "Der"), se incrementa la variable posicion en 1, lo que significa que la canica sube un nivel en la máquina.
+Si la canica cae a la derecha (lado == "Der"), se incrementa la variable posicion en 1, lo que significa que la canica baja un nivel en la máquina.
 
 Después de recorrer todos los niveles, se incrementa el contador del contenedor correspondiente a la posición final de la canica. Es decir, se aumenta contenedores[posicion] en 1, ya que posicion representa el nivel donde terminó la canica.
 
